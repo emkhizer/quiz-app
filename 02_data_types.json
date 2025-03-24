@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "Which data type is immutable in Python?",
+            "options": [
+                "List",
+                "Dictionary",
+                "Set",
+                "Tuple"
+            ],
+            "correct_answer": 3,
+            "explanation": "🔒 Tuples are immutable (cannot be modified after creation). Lists/dicts/sets are mutable. Example: `my_tuple = (1,2); my_tuple[0] = 5` throws error."
+        },
+        {
+            "question": "What does `type(3.14)` return?",
+            "options": [
+                "int",
+                "float",
+                "double",
+                "number"
+            ],
+            "correct_answer": 1,
+            "explanation": "💧 Python uses 'float' for decimal numbers. There's no 'double' type. 3.14 is float, 3 is int."
+        }
+    ]
+}

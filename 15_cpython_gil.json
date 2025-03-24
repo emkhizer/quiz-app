@@ -1,0 +1,48 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary purpose of the Global Interpreter Lock (GIL) in CPython?",
+            "options": [
+                "To prevent memory leaks in multithreaded programs",
+                "To synchronize access to Python objects across threads",
+                "To optimize garbage collection efficiency",
+                "To enable true parallel execution of threads"
+            ],
+            "correct_answer": 1,
+            "explanation": "🔒 The GIL ensures thread-safe memory management by allowing only one thread to execute Python bytecode at a time. This prevents race conditions but limits true parallelism for CPU-bound tasks."
+        },
+        {
+            "question": "Why doesn't the GIL affect I/O-bound multithreaded programs significantly?",
+            "options": [
+                "I/O operations release the GIL automatically",
+                "I/O threads have higher priority",
+                "GIL is disabled for file operations",
+                "I/O uses separate memory space"
+            ],
+            "correct_answer": 0,
+            "explanation": "⏳ During I/O operations (file/network), Python releases the GIL, allowing other threads to run. This makes multithreading effective for I/O-bound tasks despite the GIL."
+        },
+        {
+            "question": "Which Python implementation does NOT have a GIL?",
+            "options": [
+                "CPython",
+                "Jython",
+                "IronPython",
+                "PyPy"
+            ],
+            "correct_answer": 1,
+            "explanation": "🚀 Alternative implementations like Jython (Java) and IronPython (.NET) don't have a GIL. CPython's GIL exists due to its memory management design."
+        },
+        {
+            "question": "How can developers work around GIL limitations for CPU-bound tasks?",
+            "options": [
+                "Use asyncio coroutines",
+                "Implement multiprocessing",
+                "Increase thread priority",
+                "Disable GIL in code"
+            ],
+            "correct_answer": 1,
+            "explanation": "💡 The multiprocessing module uses separate Python processes (with their own GIL) to achieve true parallelism. This bypasses GIL limitations but increases memory usage."
+        }
+    ]
+}

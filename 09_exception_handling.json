@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "Which handles all exceptions?",
+            "options": [
+                "except Exception",
+                "except BaseException",
+                "except:",
+                "All of these"
+            ],
+            "correct_answer": 3,
+            "explanation": "🌐 Bare `except:` catches all. BaseException includes SystemExit/KeyboardInterrupt. Prefer specific exceptions!"
+        },
+        {
+            "question": "What does `finally` block do?",
+            "options": [
+                "Always executes",
+                "Only on error",
+                "Only with return",
+                "Skips cleanup"
+            ],
+            "correct_answer": 0,
+            "explanation": "🏁 Finally runs whether try succeeds or fails. Use for cleanup (closing files/connections)."
+        }
+    ]
+}

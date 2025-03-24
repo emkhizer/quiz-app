@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "What method removes and returns the last list item?",
+            "options": [
+                "pop()",
+                "remove()",
+                "delete()",
+                "clear()"
+            ],
+            "correct_answer": 0,
+            "explanation": "📌 list.pop() removes last item by default. list.remove(value) deletes by value."
+        },
+        {
+            "question": "Which is a valid dictionary key?",
+            "options": [
+                "[1,2]",
+                "{'a':1}",
+                "100",
+                "(1, [2])"
+            ],
+            "correct_answer": 2,
+            "explanation": "🔑 Only immutable types can be keys. 100 (int) is valid. Lists/dicts are mutable → invalid."
+        }
+    ]
+}

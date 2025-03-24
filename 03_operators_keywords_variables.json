@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "Which operator has the highest precedence in Python?",
+            "options": [
+                "** (Exponent)",
+                "* (Multiplication)",
+                "+ (Addition)",
+                "= (Assignment)"
+            ],
+            "correct_answer": 0,
+            "explanation": "🔥 Exponentiation (**) has higher precedence than multiplication/division. Parentheses can override this order: 2 * (3 + 4) = 14"
+        },
+        {
+            "question": "What's the output of `print(3 * 'ab' + 'c')`?",
+            "options": [
+                "abababc",
+                "abcabcabc",
+                "aaabbbccc",
+                "TypeError"
+            ],
+            "correct_answer": 0,
+            "explanation": "✨ String multiplication repeats the string: 'ab' * 3 = 'ababab'. String concatenation (+) combines them: 'ababab' + 'c' = 'abababc'"
+        }
+    ]
+}

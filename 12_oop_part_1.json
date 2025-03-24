@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "What is the primary purpose of encapsulation?",
+            "options": [
+                "Code reusability",
+                "Data protection",
+                "Memory optimization",
+                "Performance enhancement"
+            ],
+            "correct_answer": 1,
+            "explanation": "🛡️ Encapsulation bundles data with methods. Private variables (_var) prevent direct modification: `self._balance` in BankAccount class prevents invalid values."
+        },
+        {
+            "question": "Which demonstrates polymorphism?",
+            "options": [
+                "class Dog(Animal): ...",
+                "len([1,2,3]) vs len('abc')",
+                "def __init__(self): ...",
+                "import math"
+            ],
+            "correct_answer": 1,
+            "explanation": "🔄 Polymorphism = same interface different implementations. len() works with lists/strings/dicts. Method overriding (__str__) is another example."
+        }
+    ]
+}

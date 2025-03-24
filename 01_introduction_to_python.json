@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "Which of these is NOT a key feature of Python?",
+            "options": [
+                "Dynamic typing",
+                "Compiled execution",
+                "Automatic memory management",
+                "Interpreted nature"
+            ],
+            "correct_answer": 1,
+            "explanation": "🚀 Python is an interpreted language, not compiled. The interpreter executes code line-by-line rather than compiling the entire program first. Memory management is handled through garbage collection."
+        },
+        {
+            "question": "What makes Python cross-platform compatible?",
+            "options": [
+                "Python Virtual Machine (PVM)",
+                "Global Interpreter Lock (GIL)",
+                "pip package manager",
+                "Dynamic typing system"
+            ],
+            "correct_answer": 0,
+            "explanation": "💻 The PVM (Python Virtual Machine) executes bytecode making Python platform-independent. The same bytecode can run on any machine with a PVM implementation."
+        }
+    ]
+}

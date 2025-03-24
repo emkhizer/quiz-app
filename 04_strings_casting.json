@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "What's the output of `'Python'[1:4]`?",
+            "options": [
+                "yth",
+                "Pyt",
+                "ython",
+                "ytho"
+            ],
+            "correct_answer": 0,
+            "explanation": "🔪 Slicing is [inclusive:exclusive]. Index 1='y', Index 4='o' → 'yth'. Remember: Index starts at 0!"
+        },
+        {
+            "question": "Which converts a string to integer?",
+            "options": [
+                "str()",
+                "int()",
+                "float()",
+                "list()"
+            ],
+            "correct_answer": 1,
+            "explanation": "🎯 int('5') → 5. But int('5.5') raises ValueError. Use float() for decimals first."
+        }
+    ]
+}

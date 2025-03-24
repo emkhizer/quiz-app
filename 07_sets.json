@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "What's the result of `{1,2,3} | {3,4}`?",
+            "options": [
+                "{1,2,3,4}",
+                "{3}",
+                "{1,2,4}",
+                "TypeError"
+            ],
+            "correct_answer": 0,
+            "explanation": "∪ Union operator '|' combines elements from both sets. Duplicates automatically removed."
+        },
+        {
+            "question": "Which creates an empty set?",
+            "options": [
+                "{}",
+                "set()",
+                "[]",
+                "()"
+            ],
+            "correct_answer": 1,
+            "explanation": "🚨 {} creates empty dict. Use set() for empty set. {'a'} → set, but {} → dict."
+        }
+    ]
+}

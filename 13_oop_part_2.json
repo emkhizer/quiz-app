@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "What is method overriding?",
+            "options": [
+                "Changing method name",
+                "Redefining parent method",
+                "Hiding implementation",
+                "Static methods"
+            ],
+            "correct_answer": 1,
+            "explanation": "🔄 Child class provides specific implementation. Example: __str__() in subclass overrides parent."
+        },
+        {
+            "question": "What is __mro__ used for?",
+            "options": [
+                "Memory allocation",
+                "Method resolution order",
+                "Module relationships",
+                "Metadata storage"
+            ],
+            "correct_answer": 1,
+            "explanation": "🔍 Method Resolution Order (MRO) determines method lookup in inheritance hierarchy (C3 algorithm)."
+        }
+    ]
+}

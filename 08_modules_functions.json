@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "How to import specific function from a module?",
+            "options": [
+                "import math.sqrt",
+                "from math import sqrt",
+                "require math.sqrt",
+                "using math.sqrt"
+            ],
+            "correct_answer": 1,
+            "explanation": "📦 Syntax: `from module import name`. Now use sqrt() directly instead of math.sqrt()."
+        },
+        {
+            "question": "What's the default return value of a function?",
+            "options": [
+                "0",
+                "None",
+                "False",
+                "Error"
+            ],
+            "correct_answer": 1,
+            "explanation": "🔙 Functions without return statement return None. Example: `def foo(): pass` → foo() is None."
+        }
+    ]
+}

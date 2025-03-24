@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "What does math.ceil(3.2) return?",
+            "options": [
+                "3",
+                "4",
+                "3.0",
+                "4.0"
+            ],
+            "correct_answer": 3,
+            "explanation": "🔼 Ceiling rounds up to nearest integer → 4.0 (returns float). floor(3.7)=3.0."
+        },
+        {
+            "question": "How to get current UTC time?",
+            "options": [
+                "datetime.now()",
+                "datetime.utcnow()",
+                "time.localtime()",
+                "os.systime()"
+            ],
+            "correct_answer": 1,
+            "explanation": "🌍 datetime.utcnow() gives UTC time. datetime.now() gives local time with timezone."
+        }
+    ]
+}

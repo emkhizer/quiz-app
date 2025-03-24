@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "What does `range(3, 8, 2)` produce?",
+            "options": [
+                "[3, 5, 7]",
+                "[3, 4, 5, 6, 7]",
+                "[3, 5]",
+                "[8, 7, 6]"
+            ],
+            "correct_answer": 0,
+            "explanation": "🔢 range(start, stop, step). 3 to 8 (exclusive) with step 2: 3 → 5 → 7."
+        },
+        {
+            "question": "Which loop is guaranteed to execute at least once?",
+            "options": [
+                "for",
+                "while",
+                "do-while",
+                "None exist in Python"
+            ],
+            "correct_answer": 3,
+            "explanation": "⚠️ Python has no native do-while loop. Use `while True` with `break` to simulate it."
+        }
+    ]
+}

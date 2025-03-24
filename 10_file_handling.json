@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "Which mode appends to a file?",
+            "options": [
+                "w",
+                "a",
+                "r+",
+                "x"
+            ],
+            "correct_answer": 1,
+            "explanation": "📝 'a' mode appends. 'w' overwrites. 'r+' allows read/write but starts at beginning."
+        },
+        {
+            "question": "Best practice for file handling?",
+            "options": [
+                "Use open()/close()",
+                "Nested try-except",
+                "With statement",
+                "Manual flushing"
+            ],
+            "correct_answer": 2,
+            "explanation": "✅ with open(...) as f: automatically closes file. Safer than manual close()."
+        }
+    ]
+}

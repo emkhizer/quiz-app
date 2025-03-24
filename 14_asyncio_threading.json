@@ -1,0 +1,26 @@
+{
+    "questions": [
+        {
+            "question": "When would you prefer asyncio over threading?",
+            "options": [
+                "CPU-bound tasks",
+                "I/O-bound tasks",
+                "GUI applications",
+                "Parallel file operations"
+            ],
+            "correct_answer": 1,
+            "explanation": "🚀 Asyncio excels at I/O-bound tasks using event loops. Threading better suits CPU-bound tasks (though limited by GIL). Async/await syntax makes async code cleaner than callback hell!"
+        },
+        {
+            "question": "What's the main advantage of threading.Lock?",
+            "options": [
+                "Prevent race conditions",
+                "Bypass GIL limitations",
+                "Improve memory usage",
+                "Enable parallel execution"
+            ],
+            "correct_answer": 0,
+            "explanation": "🔒 Locks ensure only one thread accesses shared resources at a time. Critical section protection prevents data corruption from simultaneous writes."
+        }
+    ]
+}
